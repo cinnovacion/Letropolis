@@ -1,0 +1,270 @@
+#canvas {
+	background-color: #0d6fc3 !important;
+}
+
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-icon.svg);
+}
+
+.game, .sidebar {
+	height: 100%;
+}
+
+.sidebar {
+	border-right: 1px solid #ccc;
+}
+
+.hidden {
+	display: none;
+}
+
+.grid {
+	height: 100%;
+}
+
+.grid > div {
+	height: 100%;
+}
+
+.menu-button {
+	display: block;
+	width: 300px;
+	margin: 300px auto 0 auto;
+	border-radius: 5px;
+  background-color: #f8d09a;
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+  box-shadow: 0 2px #eb893d;
+}
+
+.item {
+  padding: 10px 0 10px 0;
+  width: 60px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 7px;
+  background-color: #f8d09a;
+  color: #000;
+  font-weight: bold;
+  font-size: 28px;
+  box-shadow: 0 2px #eb893d;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+#upper-button, #lower-button {
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #f8d09a;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0 2px #eb893d;
+}
+
+.instrucciones {
+  clear: both;
+  padding: 10px;
+}
+
+/* Level 0ne */
+
+#alphabet, #soup, #sentences {
+  padding-right: 0 !important;
+  background-color: rgba(255, 255, 255,0.5);
+}
+
+#alphabet h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #f7941e;
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+
+.enter {
+  box-shadow: 0 2px 5px #000;
+}
+
+#lines {
+  width: 500px;
+  margin: 100px auto 0 auto;
+  overflow: hidden;
+}
+
+#lines p {
+  line-height: 30px;
+  font-size: 45px;
+}
+
+/* Level Two */
+
+#soup h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #0ba14b;
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+
+#sentences h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ffde16;
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+.word {
+  float: left;
+  clear: both;
+  padding: 10px 15px 10px 15px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #3d53a1;
+  color: #fff;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.word-found {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+#win-msg {
+  position: absolute;
+  top: 100px;
+  left: 30%;
+  background-color: #3d53a1;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  padding: 100px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+#win-msg a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+canvas {
+  background: #fff;
+  border-radius: 25px;
+  margin-left: 50px;
+  margin-top: 35px;
+  font-weight: bold;
+}
+
+#words-box {
+  background-color: rgba(255, 255, 255,0.5);
+  margin-top: 100px;
+  margin-left: 50px;
+  padding-top: 60px;
+  padding: 40px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+#level-1 {
+  background: url(../images/level1.jpg) 0 0 no-repeat;
+}
+
+#level-2 {
+  background: url(../images/level2.jpg) 0 0 no-repeat;
+}
+
+#level-3 {
+  background: url(../images/level3.jpg) 0 0 no-repeat;
+}
+
+#menu-1 {
+  background: url(../images/menu1.jpg) 0 0 no-repeat;
+}
+
+#menu-2 {
+  background: url(../images/menu2.jpg) 0 0 no-repeat;
+}
+
+#menu-3 {
+  background: url(../images/menu3.jpg) 0 0 no-repeat;
+}
+
+#buttons {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+}
+
+.reload-button {
+  float: left;
+  padding: 5px 8px 5px 8px;
+  font-size: 20px;
+  margin: 0 5px 0 5px;
+}
+
+.reload {
+  font-size: 20px;
+  margin: 0 5px 0 5px;
+  position: absolute;
+  padding: 5px 8px 5px 8px;
+  bottom:5px;
+  margin-left: 10px;
+  font-size: 20px;
+  right: 5px;
+  float: none;
+}
+
+.view-answer {
+  float: left;
+  padding: 5px 8px 5px 8px;
+  font-size: 20px;
+}
+
+.restart {
+  position: absolute;
+  padding: 5px 8px 5px 8px;
+  bottom:5px;
+  margin-left: 10px;
+  font-size: 20px;
+  right: 5px;
+}
+
+#answer {
+  margin: 80px auto 0 auto;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 26px;
+  text-decoration: underline;
+  background-color: #3d53a1;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.disabled {
+  background-color: grey;
+  color: #575757 !important;
+}
+.disabled:hover {
+  background-color: grey;
+  border-color: grey;
+}
+
+.toolbar #stop-button {
+  background-image: url('../images/activity-stop.png') !important;
+}
